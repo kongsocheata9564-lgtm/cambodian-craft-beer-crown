@@ -1,9 +1,9 @@
 <template>
-  <section class="bg-[#F8F6F2] py-16 lg:py-24">
+  <section class="bg-[#F8F6F2] py-6 lg:py-8">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
       <!-- Header -->
-      <div class="text-center mb-12 lg:mb-16">
+      <div class="text-center mb-6 lg:mb-8">
         <h2 class="text-4xl md:text-4xl font-black uppercase tracking-wide text-gray-900" style="font-family: 'Inter', sans-serif;">
           Featured Breweries
         </h2>
