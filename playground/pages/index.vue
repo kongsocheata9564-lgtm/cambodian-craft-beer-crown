@@ -57,7 +57,7 @@
         <br><br>
         <!-- Vote -->
       <a
-  href="" class=" inline-block bg-cyan-500 hover:bg-cyan-600 hover:scale-105 hover:-translate-y-1 transition-all duration-300 text-white px-8 py-4 font-bold uppercase rounded-md shadow-lg hover:shadow-xl">
+  href="" class=" inline-block bg-blue-700 hover:bg-cyan-600 hover:scale-105 hover:-translate-y-1 transition-all duration-300 text-white px-8 py-4 font-bold uppercase rounded-md shadow-lg hover:shadow-xl">
   <i class="fa-solid fa-check-to-slot"></i> Vote Now 
   
 </a>
