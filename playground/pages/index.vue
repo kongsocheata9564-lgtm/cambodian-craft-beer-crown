@@ -5,11 +5,11 @@
       <!-- HERO -->
       <section class="p-8">
 
-        <h1 class="text-5xl font-black uppercase leading-tight">
+        <h1 class="text-4xl font-black uppercase leading-tight">
           Cambodian Craft Beer
         </h1>
 
-        <h2 class="text-5xl font-black text-blue-700 uppercase mb-6">
+        <h2 class="text-4xl font-black text-blue-700 uppercase mb-6">
           Crown 2025
         </h2>
 
