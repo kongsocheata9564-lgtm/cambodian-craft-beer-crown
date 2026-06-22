@@ -72,7 +72,7 @@
         <!-- Vote Button -->
         <a 
           href="https://docs.google.com/forms/d/e/1FAIpQLScEjueBWitDWygOZkaHDnkADWIHhYdgZ-lH_u3EvKM2RzL1AA/viewform"
-          target="blank" class="inline-block bg-sky-500 hover:bg-sky-600 hover:scale-105 hover:-translate-y-1 transition-all duration-300 text-white px-8 py-4 font-bold uppercase rounded-md shadow-lg hover:shadow-xl"
+          target="blank" class="inline-block bg-orange-400 hover:bg-orange-500 hover:scale-105 hover:-translate-y-1 transition-all duration-300 text-white px-8 py-4 font-bold uppercase rounded-md shadow-lg hover:shadow-xl"
         >
           <i ref="voteIcon" class="fa-solid fa-check-to-slot"></i> Judge Here
         </a>
