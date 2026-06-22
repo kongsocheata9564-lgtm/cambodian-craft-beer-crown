@@ -1,6 +1,11 @@
 <template>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   <header class="bg-white shadow mt-0">
+
+  </header>
+  <header class="bg-white shadow">
+
     <div class="container mx-auto px-6 py-4 flex justify-between items-center">
 
       <h1 class="font-bold text-xl">

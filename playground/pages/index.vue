@@ -110,7 +110,7 @@
       </section>
 
       
-     <Footer />
+     
   </div>
 </template>
 <script setup>
