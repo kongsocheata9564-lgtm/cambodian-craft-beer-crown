@@ -9,7 +9,7 @@
           Cambodian Craft Beer
         </h1>
 
-        <h2 class="text-4xl font-black text-blue-700 uppercase mb-6">
+        <h2 class="text-4xl font-black text-sky-500 uppercase mb-6">
           Crown 2025
         </h2>
 
@@ -17,7 +17,7 @@
           Join us for Cambodia's premier craft beer competition featuring
         </p>
 
-        <p class="text-blue-700 font-bold uppercase mb-8">
+        <p class="text-sky-500 font-bold uppercase mb-8">
           11 Exceptional Breweries
           <span class="text-black font-normal">competing for the crown.</span>
         </p>
@@ -27,7 +27,7 @@
 
   <!-- Date -->
   <div class="flex items-center gap-4 group">
-    <div class="w-12 h-12 rounded-xl bg-blue-700 flex items-center justify-center shadow-sm flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+    <div class="w-12 h-12 rounded-xl bg-sky-500 flex items-center justify-center shadow-sm flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
       <i ref="calendarIcon" class="fa-regular fa-calendar-check text-white text-lg"></i>
     </div>
     <div>
@@ -40,7 +40,7 @@
 
   <!-- Time -->
   <div class="flex items-center gap-4 group">
-    <div class="w-12 h-12 rounded-xl bg-blue-700 flex items-center justify-center shadow-sm flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+    <div class="w-12 h-12 rounded-xl bg-sky-500 flex items-center justify-center shadow-sm flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
       <i ref="clockIcon" class="fa-regular fa-clock text-white text-lg"></i>
     </div>
     <div>
@@ -53,7 +53,7 @@
 
   <!-- Location -->
   <div class="flex items-center gap-4 group">
-    <div class="w-12 h-12 rounded-xl bg-blue-700 flex items-center justify-center shadow-sm flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+    <div class="w-12 h-12 rounded-xl bg-sky-500 flex items-center justify-center shadow-sm flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
       <i ref="locationIcon" class="fa-solid fa-location-dot text-white text-lg"></i>
     </div>
     <div>
@@ -72,7 +72,7 @@
         <!-- Vote Button -->
         <a 
           href="https://docs.google.com/forms/d/e/1FAIpQLScEjueBWitDWygOZkaHDnkADWIHhYdgZ-lH_u3EvKM2RzL1AA/viewform"
-          class="inline-block bg-blue-700 hover:bg-cyan-600 hover:scale-105 hover:-translate-y-1 transition-all duration-300 text-white px-8 py-4 font-bold uppercase rounded-md shadow-lg hover:shadow-xl"
+          class="inline-block bg-sky-500 hover:bg-sky-600 hover:scale-105 hover:-translate-y-1 transition-all duration-300 text-white px-8 py-4 font-bold uppercase rounded-md shadow-lg hover:shadow-xl"
         >
           <i ref="voteIcon" class="fa-solid fa-check-to-slot"></i> Judge Here
         </a>
@@ -84,8 +84,8 @@
     <section class="max-w-6xl mx-auto grid gap-[15px] md:grid-cols-3 pt-[30px] pb-[50px]">
 
       <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
-        <h3 class="uppercase font-black text-blue-700 text-xl mb-4 flex items-center gap-2">
-          <i ref="breweryIcon" class="fa-solid fa-beer-mug-empty text-blue-700"></i>
+        <h3 class="uppercase font-black text-sky-500 text-xl mb-4 flex items-center gap-2">
+          <i ref="breweryIcon" class="fa-solid fa-beer-mug-empty text-sky-500"></i>
           Meet the Breweries
         </h3>
         <p class="text-sm mb-4">
@@ -93,12 +93,12 @@
           across Cambodia and learn their<br>
           unique stories.
         </p>
-        <a href="./breweries" class="text-blue-700 font-bold uppercase"> Learn More -> </a>
+        <a href="./breweries" class="text-sky-500 font-bold uppercase hover:text-sky-600"> Learn More -> </a>
       </div>
 
       <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
-        <h3 class="uppercase font-black text-blue-700 text-xl mb-4 flex items-center gap-2">
-          <i ref="timetableIcon" class="fa-solid fa-music text-blue-700"></i>
+        <h3 class="uppercase font-black text-sky-500 text-xl mb-4 flex items-center gap-2">
+          <i ref="timetableIcon" class="fa-solid fa-music text-sky-500"></i>
           Event Timetable
         </h3>
         <p class="text-sm mb-4">
@@ -106,12 +106,12 @@
           award ceremonies scheduled<br>
           throughout the day.
         </p>
-        <a href="./breweries" class="text-blue-700 font-bold uppercase"> Learn More -> </a>
+        <a href="./breweries" class="text-sky-500 font-bold uppercase hover:text-sky-600"> Learn More -> </a>
       </div>
 
       <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
-        <h3 class="uppercase font-black text-blue-700 text-xl mb-4 flex items-center gap-2">
-          <i ref="awardsIcon" class="fa-solid fa-trophy text-blue-700"></i>
+        <h3 class="uppercase font-black text-sky-500 text-xl mb-4 flex items-center gap-2">
+          <i ref="awardsIcon" class="fa-solid fa-trophy text-sky-500"></i>
           Awards
         </h3>
         <p class="text-sm mb-4">
@@ -119,7 +119,7 @@
           Choice Award, and Brewer's Choice<br>
           Award.
         </p>
-        <a href="./breweries" class="text-blue-700 font-bold uppercase"> Learn More -> </a>
+        <a href="./breweries" class="text-sky-500 font-bold uppercase hover:text-sky-600"> Learn More -> </a>
       </div>
 
     </section>
