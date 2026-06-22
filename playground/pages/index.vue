@@ -215,13 +215,13 @@ let intervals = []
 
 onMounted(() => {
   intervals = [
-    bounce(calendarIcon.value,  2000),  
-    spin(clockIcon.value,       3000),  
-    shake(locationIcon.value,   2500),  
-    pulse(voteIcon.value,       1800),  
-    swing(breweryIcon.value,    2200),  
-    float(timetableIcon.value,  2000),  
-    spin(awardsIcon.value,      4000),  
+    bounce(calendarIcon.value,  2000),
+    spin(clockIcon.value,       3000),
+    shake(locationIcon.value,   2500),
+    pulse(voteIcon.value,       1800),
+    swing(breweryIcon.value,    2200),
+    float(timetableIcon.value,  2000),
+    spin(awardsIcon.value,      4000),
   ]
 })
 
