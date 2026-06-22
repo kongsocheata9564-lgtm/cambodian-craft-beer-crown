@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-100 p-4 ">
+  <div class="min-h-screen bg-[#F8F6F2] p-4 ">
     <div class="max-w-6xl mx-auto bg-white border shadow-lg rounded-md">
 
       <!-- HERO -->
