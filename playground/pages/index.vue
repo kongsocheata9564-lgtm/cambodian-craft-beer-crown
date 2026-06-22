@@ -71,7 +71,7 @@
 
         <!-- Vote Button -->
         <a 
-          href=""
+          href="https://docs.google.com/forms/d/e/1FAIpQLScEjueBWitDWygOZkaHDnkADWIHhYdgZ-lH_u3EvKM2RzL1AA/viewform"
           class="inline-block bg-blue-700 hover:bg-cyan-600 hover:scale-105 hover:-translate-y-1 transition-all duration-300 text-white px-8 py-4 font-bold uppercase rounded-md shadow-lg hover:shadow-xl"
         >
           <i ref="voteIcon" class="fa-solid fa-check-to-slot"></i> Judge Here
@@ -93,7 +93,7 @@
           across Cambodia and learn their<br>
           unique stories.
         </p>
-        <a href="" class="text-blue-700 font-bold uppercase"> Learn More -> </a>
+        <a href="./breweries" class="text-blue-700 font-bold uppercase"> Learn More -> </a>
       </div>
 
       <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
@@ -106,7 +106,7 @@
           award ceremonies scheduled<br>
           throughout the day.
         </p>
-        <a href="" class="text-blue-700 font-bold uppercase"> Learn More -> </a>
+        <a href="./breweries" class="text-blue-700 font-bold uppercase"> Learn More -> </a>
       </div>
 
       <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
@@ -119,7 +119,7 @@
           Choice Award, and Brewer's Choice<br>
           Award.
         </p>
-        <a href="" class="text-blue-700 font-bold uppercase"> Learn More -> </a>
+        <a href="./breweries" class="text-blue-700 font-bold uppercase"> Learn More -> </a>
       </div>
 
     </section>
