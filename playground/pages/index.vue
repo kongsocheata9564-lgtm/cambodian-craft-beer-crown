@@ -22,28 +22,50 @@
           <span class="text-black font-normal">competing for the crown.</span>
         </p>
 
-        <!-- Event Info -->
-        <div class="bg-blue-50 border w-auto p-6 shadow-sm space-y-5 rounded-md shadow-lg">
+       <!-- Event Info -->
+<div class="bg-gradient-to-br from-blue-50 to-white border border-blue-100 p-6 rounded-2xl shadow-md space-y-4">
 
-          <div class="flex gap-4 items-center">
-            <i ref="calendarIcon" class="fa-regular fa-calendar-check text-blue-700 text-xl"></i>
-            <span class="font-bold uppercase">August 16, 2025</span>
-          </div>
+  <!-- Date -->
+  <div class="flex items-center gap-4 group">
+    <div class="w-12 h-12 rounded-xl bg-blue-700 flex items-center justify-center shadow-sm flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+      <i ref="calendarIcon" class="fa-regular fa-calendar-check text-white text-lg"></i>
+    </div>
+    <div>
+      <p class="text-xs text-blue-400 uppercase tracking-widest font-semibold mb-0.5">Date</p>
+      <p class="font-black uppercase text-gray-800 tracking-wide">August 16, 2025</p>
+    </div>
+  </div>
 
-          <div class="flex gap-4 items-center">
-            <i ref="clockIcon" class="fa-regular fa-clock text-blue-700 text-xl"></i>
-            <span class="font-bold uppercase">2:00 PM - 11:30 PM</span>
-          </div>
+  <div class="border-t border-blue-100"></div>
 
-          <div class="flex gap-4 items-center">
-            <i ref="locationIcon" class="fa-solid fa-location-dot text-blue-700 text-xl"></i>
-            <span class="font-bold uppercase">
-              Botanico Craft Beer Garden<br />
-              Street 29, Phnom Penh
-            </span>
-          </div>
+  <!-- Time -->
+  <div class="flex items-center gap-4 group">
+    <div class="w-12 h-12 rounded-xl bg-blue-700 flex items-center justify-center shadow-sm flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+      <i ref="clockIcon" class="fa-regular fa-clock text-white text-lg"></i>
+    </div>
+    <div>
+      <p class="text-xs text-blue-400 uppercase tracking-widest font-semibold mb-0.5">Time</p>
+      <p class="font-black uppercase text-gray-800 tracking-wide">2:00 PM – 11:30 PM</p>
+    </div>
+  </div>
 
-        </div>
+  <div class="border-t border-blue-100"></div>
+
+  <!-- Location -->
+  <div class="flex items-center gap-4 group">
+    <div class="w-12 h-12 rounded-xl bg-blue-700 flex items-center justify-center shadow-sm flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+      <i ref="locationIcon" class="fa-solid fa-location-dot text-white text-lg"></i>
+    </div>
+    <div>
+      <p class="text-xs text-blue-400 uppercase tracking-widest font-semibold mb-0.5">Venue</p>
+      <p class="font-black uppercase text-gray-800 tracking-wide leading-snug">
+        Botanico Craft Beer Garden<br>
+        <span class="font-normal text-gray-500 normal-case text-sm">Street 29, Phnom Penh</span>
+      </p>
+    </div>
+  </div>
+
+</div>
 
         <br><br>
 
@@ -193,13 +215,13 @@ let intervals = []
 
 onMounted(() => {
   intervals = [
-    bounce(calendarIcon.value,  2000),  // calendar bounces
-    spin(clockIcon.value,       3000),  // clock spins
-    shake(locationIcon.value,   2500),  // location shakes
-    pulse(voteIcon.value,       1800),  // vote button icon pulses
-    swing(breweryIcon.value,    2200),  // beer mug swings
-    float(timetableIcon.value,  2000),  // music note floats
-    spin(awardsIcon.value,      4000),  // trophy spins slowly
+    bounce(calendarIcon.value,  2000),  
+    spin(clockIcon.value,       3000),  
+    shake(locationIcon.value,   2500),  
+    pulse(voteIcon.value,       1800),  
+    swing(breweryIcon.value,    2200),  
+    float(timetableIcon.value,  2000),  
+    spin(awardsIcon.value,      4000),  
   ]
 })
 
