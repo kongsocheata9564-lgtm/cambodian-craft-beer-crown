@@ -1,4 +1,5 @@
 <template>
+  <section class="bg-[#F8F6F2] py-6 lg:py-8">
   <div class="container mx-auto px-6 py-16">
     <h1 class="text-3xl md:text-4xl text-center font-bold mb-2">Competition Awards</h1>
     <p class="text-gray-700 mb-6 text-center">Three prestigious categories await our winners</p>
@@ -48,4 +49,5 @@
       </div>
     </div>
   </div>
+</section>
 </template>
