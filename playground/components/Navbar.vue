@@ -1,6 +1,6 @@
 <template>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <header class="bg-white shadow relative z-50">
+  <header class="bg-white shadow top-0 z-50 mt-o sticky">
     <div class="container mx-auto px-6 py-4 flex justify-between items-center">
 
       <!-- Hamburger button (mobile only) - comes first visually on mobile -->
@@ -46,9 +46,10 @@
 
       <!-- Desktop vote button -->
         
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScEjueBWitDWygOZkaHDnkADWIHhYdgZ-lH_u3EvKM2RzL1AA/viewform" class="order-4 hidden md:inline-block bg-orange-400 text-white px-6 py-2 rounded-3xl hover:bg-orange-400 hover:scale-105 transition-all duration-200">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScEjueBWitDWygOZkaHDnkADWIHhYdgZ-lH_u3EvKM2RzL1AA/viewform" class="order-4 hidden md:inline-block bg-orange-400 text-white px-6 py-2 rounded-3xl hover:bg-orange-400 hover:scale-105 transition-all duration-200" target="blank">
+
           <i class="fa-solid fa-check-to-slot"></i>
-          <h2 class="inline-block ml-2 text-lg">Judge</h2>
+          <h2 class="inline-block ml-2 text-lg">JUDGE HERE</h2>
         </a>
 
     </div>
@@ -74,11 +75,11 @@
           </NuxtLink>
 
           <a href="https://docs.google.com/forms/d/e/1FAIpQLScEjueBWitDWygOZkaHDnkADWIHhYdgZ-lH_u3EvKM2RzL1AA/viewform"
-            class="flex items-center gap-3 px-4 py-3 rounded-lg bg-orange-400 text-white font-medium mt-1"
+            class="flex items-center gap-3 px-4 py-3 rounded-lg bg-orange-400 text-white font-medium mt-1" target="blank"
             @click="menuOpen = false"
           >
             <i class="fa-regular fa-calendar-check w-5 text-center"></i>
-            <span>Judge</span>
+            <span>JUDGE HERE</span>
         </a>
         </nav>
 
