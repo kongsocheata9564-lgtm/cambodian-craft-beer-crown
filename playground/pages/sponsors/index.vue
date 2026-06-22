@@ -1,6 +1,6 @@
 <template>
-    <section class="bg-gray-100 flex justify-center pt-3">
-    <div class="border-2xl px-4 sm:px-8 md:px-16 lg:px-24 xl:px-[40px] bg-white max-w-7xl">
+    <section class="bg-[#F8F6F2] flex justify-center py-3">
+    <div class="border-2xl sm:pb-10 xl:px-4 sm:px-8 md:px-16 lg:px-24 xl:px-[40px] pb-0 xl:pb-10 xl:mb-3 bg-white max-w-7xl">
         <div class="flex justify-center pt-10">
             <h1 class="font-black text-2xl sm:text-3xl md:text-4xl text-center">
                 OUR SPONSOR
