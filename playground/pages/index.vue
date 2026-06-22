@@ -68,7 +68,7 @@
 
     </div>
     <!-- Cards -->
-      <section class="max-w-6xl mx-auto grid gap-[15px] shadow-sm md:grid-cols-3 pt-[30px]  pb-[50px]">
+      <section class="max-w-6xl mx-auto grid gap-[15px] md:grid-cols-3 pt-[30px]  pb-[50px]">
         <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
             <h3 class="uppercase font-black text-blue-700 text-xl mb-4"> Meet the Breweries </h3>
             <p class="text-xm  mb-4">
