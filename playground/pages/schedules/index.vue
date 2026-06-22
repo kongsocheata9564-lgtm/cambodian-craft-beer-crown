@@ -22,7 +22,7 @@
           <div class="relative flex flex-col items-center flex-shrink-0 self-stretch">
             <span
               class="w-12 h-12 rounded-2xl text-white flex items-center justify-center shadow-sm z-10 transition-colors duration-200"
-              :class="selectedIndex === index ? 'bg-orange-500' : 'bg-blue-700 group-hover:bg-orange-500'"
+              :class="selectedIndex === index ? 'bg-orange-500' : 'bg-sky-500 group-hover:bg-orange-500'"
             >
               <component :is="item.icon" class="w-5 h-5" />
             </span>
