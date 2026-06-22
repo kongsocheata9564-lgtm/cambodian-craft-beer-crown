@@ -27,7 +27,7 @@
 
           <!-- Logo -->
           <div class="flex justify-center mb-4">
-            <div class="w-20 h-20 rounded-full overflow-hidden border-2 border-amber-700 bg-white shadow-sm">
+            <div class="w-28 h-28 rounded-full overflow-hidden border-4 border-amber-700 bg-white shadow-sm">
               <img
                 :src="brewery.image"
                 :alt="brewery.name"

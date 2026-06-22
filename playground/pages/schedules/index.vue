@@ -15,12 +15,14 @@
         <div
           v-for="(item, index) in schedule"
           :key="item.heading"
-          class="relative flex items-stretch gap-5 pb-5"
+          class="relative flex items-stretch gap-5 pb-5 cursor-pointer group"
+          @click="selectedIndex = selectedIndex === index ? null : index"
         >
           <!-- icon column -->
           <div class="relative flex flex-col items-center flex-shrink-0 self-stretch">
             <span
-              class="w-12 h-12 rounded-2xl bg-blue-700 text-white flex items-center justify-center shadow-sm z-10"
+              class="w-12 h-12 rounded-2xl text-white flex items-center justify-center shadow-sm z-10 transition-colors duration-200"
+              :class="selectedIndex === index ? 'bg-orange-500' : 'bg-blue-700 group-hover:bg-orange-500'"
             >
               <component :is="item.icon" class="w-5 h-5" />
             </span>
@@ -32,12 +34,18 @@
 
           <!-- card -->
           <div
-            class="flex-1 bg-white rounded-xl shadow-sm border border-gray-100 px-5 py-4"
+            class="flex-1 bg-white rounded-xl shadow-sm px-5 py-4 transition-all duration-200"
+            :class="selectedIndex === index
+              ? 'border-2 border-orange-500 shadow-md'
+              : 'border-2 border-transparent group-hover:border-orange-400'"
           >
             <div class="flex items-start justify-between gap-3">
               <div>
                 <span
-                  class="mb-1 inline-block w-fit rounded bg-teal-100 px-2 py-0.5 text-xs font-semibold uppercase tracking-wide text-teal-700"
+                  class="mb-1 inline-block w-fit rounded px-2 py-0.5 text-xs font-semibold uppercase tracking-wide transition-colors duration-200"
+                  :class="selectedIndex === index
+                    ? 'bg-orange-100 text-orange-700'
+                    : 'bg-teal-100 text-teal-700'"
                   style="font-family: 'Inter', sans-serif;"
                 >
                   {{ item.tag }}
@@ -65,7 +73,9 @@
 </template>
 
 <script setup>
-import { h } from "vue";
+import { h, ref } from "vue";
+
+const selectedIndex = ref(null);
 
 const IconClock = () =>
   h("svg", { viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", "stroke-width": "2", "stroke-linecap": "round", "stroke-linejoin": "round" }, [
