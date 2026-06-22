@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-gray-100 flex justify-center pt-3">
+    <section class="bg-[#F8F6F2] flex justify-center pt-3">
     <div class="border-2xl px-4 sm:px-8 md:px-16 lg:px-24 xl:px-[40px] bg-white max-w-7xl">
         <div class="flex justify-center pt-10">
             <h1 class="font-black text-2xl sm:text-3xl md:text-4xl text-center">

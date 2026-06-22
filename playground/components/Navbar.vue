@@ -36,7 +36,7 @@
 
       <button class="bg-[#1DA4BF] text-white px-6 py-2 rounded-lg hover:bg-[#1DA4BF] hover:scale-105 transition-all duration-200">
         <i class="fa-regular fa-calendar-check"></i>
-        <h2 class="inline-block ml-2 text-xl">Votes</h2>
+        <h2 class="inline-block ml-2 text-xl">Judge Here</h2>
       </button>
 
     </div>
