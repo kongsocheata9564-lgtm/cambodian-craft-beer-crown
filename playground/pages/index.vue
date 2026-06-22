@@ -44,8 +44,8 @@
       <i ref="clockIcon" class="fa-regular fa-clock text-white text-lg"></i>
     </div>
     <div>
-      <p class="text-xs text-blue-400 uppercase tracking-widest font-semibold mb-0.5">Time</p>
-      <p class="font-black uppercase text-gray-800 tracking-wide">2:00 PM – 11:30 PM</p>
+      <p class="text-xs text-blue-400 uppercase tracking-widest font-semibold mb-0.5"> Time </p>
+      <p class="font-black uppercase text-gray-800 tracking-wide"> 2:00 PM -- 11:30 PM </p>
     </div>
   </div>
 
@@ -57,10 +57,10 @@
       <i ref="locationIcon" class="fa-solid fa-location-dot text-white text-lg"></i>
     </div>
     <div>
-      <p class="text-xs text-blue-400 uppercase tracking-widest font-semibold mb-0.5">Venue</p>
+      <p class="text-xs text-blue-400 uppercase tracking-widest font-semibold mb-0.5"> Venue </p>
       <p class="font-black uppercase text-gray-800 tracking-wide leading-snug">
-        Botanico Craft Beer Garden<br>
-        <span class="font-normal text-gray-500 normal-case text-sm">Street 29, Phnom Penh</span>
+        Botanico Craft Beer Garden <br>
+        <span class="font-normal text-gray-500 normal-case text-sm"> Street 29, Phnom Penh </span>
       </p>
     </div>
   </div>
@@ -93,7 +93,7 @@
           across Cambodia and learn their<br>
           unique stories.
         </p>
-        <a href="" class="text-blue-700 font-bold uppercase">Learn More -></a>
+        <a href="" class="text-blue-700 font-bold uppercase"> Learn More -> </a>
       </div>
 
       <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
@@ -106,7 +106,7 @@
           award ceremonies scheduled<br>
           throughout the day.
         </p>
-        <a href="" class="text-blue-700 font-bold uppercase">Learn More -></a>
+        <a href="" class="text-blue-700 font-bold uppercase"> Learn More -> </a>
       </div>
 
       <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
@@ -119,7 +119,7 @@
           Choice Award, and Brewer's Choice<br>
           Award.
         </p>
-        <a href="" class="text-blue-700 font-bold uppercase">Learn More -></a>
+        <a href="" class="text-blue-700 font-bold uppercase"> Learn More -> </a>
       </div>
 
     </section>
