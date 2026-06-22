@@ -25,7 +25,7 @@
         </p>
 
         <!-- Event Info -->
-        <div class="bg-gray-50 border w-auto p-6 shadow-sm space-y-5 rounded-md shadow-lg">
+        <div class="bg-blue-50 border w-auto p-6 shadow-sm space-y-5 rounded-md shadow-lg">
           <div class="flex gap-4 items-center">
             
             <i class="fa-regular fa-calendar-check"></i>
