@@ -71,7 +71,7 @@
       <section class="max-w-6xl mx-auto grid gap-[15px] shadow-sm md:grid-cols-3 pt-[30px]  pb-[50px]">
         <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
             <h3 class="uppercase font-black text-blue-700 text-xl mb-4"> Meet the Breweries </h3>
-            <p class="text-sm uppercase mb-4">
+            <p class="text-sm  mb-4">
            Discover 11 incredible breweries from <br>
            across Cambodia and learn their <br>
            unique stories.
@@ -83,7 +83,7 @@
 
         <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
             <h3 class="uppercase font-black text-blue-700 text-xl mb-4"> Event Timetable </h3>
-             <p class="text-sm uppercase mb-4">
+             <p class="text-sm mb-4">
           Check out the live music, DJ sets, and <br>
           award ceremonies scheduled <br>
           throughout the day.
@@ -95,7 +95,7 @@
 
         <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
             <h3 class="uppercase font-black text-blue-700 text-xl mb-4"> Awards </h3>
-            <p class="text-sm uppercase mb-4">
+            <p class="text-sm  mb-4">
           Learn about the Main Award, People’s <br>
           Choice Award, and Brewer’s Choice <br>
           Award.
