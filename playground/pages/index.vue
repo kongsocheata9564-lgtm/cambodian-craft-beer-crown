@@ -106,7 +106,7 @@
           award ceremonies scheduled<br>
           throughout the day.
         </p>
-        <a href="./breweries" class="text-sky-500 font-bold uppercase hover:text-sky-600"> Learn More -> </a>
+        <a href="./schedules" class="text-sky-500 font-bold uppercase hover:text-sky-600"> Learn More -> </a>
       </div>
 
       <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
@@ -119,7 +119,7 @@
           Choice Award, and Brewer's Choice<br>
           Award.
         </p>
-        <a href="./breweries" class="text-sky-500 font-bold uppercase hover:text-sky-600"> Learn More -> </a>
+        <a href="./awards" class="text-sky-500 font-bold uppercase hover:text-sky-600"> Learn More -> </a>
       </div>
 
     </section>
