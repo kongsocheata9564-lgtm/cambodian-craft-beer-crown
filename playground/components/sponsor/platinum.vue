@@ -8,11 +8,7 @@ import CopyofLogoYakimaChiefHops from "/imgs/CopyofLogoYakimaChiefHops.png";
 
 const data = [
   { title: "BERTIE", img: BertiePNHlogo, body_text: "Official event partner." },
-  { title: "BOTANICO", img: botanico, body_text: "Premium beer supplier." },
-  { title: "THAI TAN", img: CopyofLogoThaiTaneng1, body_text: "Community supporter." },
   { title: "YAKIMA CHIEF", img: CBACLOGOfa, body_text: "Community sponsor." },
-  { title: "CRAFT MALT CO", img: CopyofLogoYakimaChiefHops, body_text: "Official ingredient partner." },
-  { title: "SKAI TECH", img: SKAI_Tech, body_text: "Venue partner." },
 ];
 </script>
 

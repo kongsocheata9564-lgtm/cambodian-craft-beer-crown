@@ -1,18 +1,13 @@
 <script setup>
-import BertiePNHlogo from "/imgs/BertiePNHlogo-3.png";
-import botanico from "/imgs/botanico.png";
-import CBACLOGOfa from "/imgs/CBACLOGOfa-color.png";
-import CopyofLogoThaiTaneng1 from "/imgs/CopyofLogoThaiTaneng1.png";
-import SKAI_Tech from "/imgs/SKAI_Tech.png";
-import CopyofLogoYakimaChiefHops from "/imgs/CopyofLogoYakimaChiefHops.png";
+const BertiePNHlogo = "https://www.logoai.com/uploads/output/2025/04/19/0c61fa6a79a7055a4dfd9b288e882c41.jpg";
+const botanico = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX58uEonNWKuDb6ie9ArhIDYlifEffjHqvQyj7HL4KEQ&s=10";
+const CopyofLogoThaiTaneng1 = "https://i.pinimg.com/564x/cf/e8/9b/cfe89b81d77a4eed574eee4bd7aa677d.jpg";
 
 const data = [
   { title: "BERTIE", img: BertiePNHlogo, body_text: "Official event partner." },
   { title: "BOTANICO", img: botanico, body_text: "Premium beer supplier." },
   { title: "THAI TAN", img: CopyofLogoThaiTaneng1, body_text: "Community supporter." },
-  { title: "YAKIMA CHIEF", img: CBACLOGOfa, body_text: "Community sponsor." },
-  { title: "CRAFT MALT CO", img: CopyofLogoYakimaChiefHops, body_text: "Official ingredient partner." },
-  { title: "SKAI TECH", img: SKAI_Tech, body_text: "Venue partner." },
+
 ];
 </script>
 
