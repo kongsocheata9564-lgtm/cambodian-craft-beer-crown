@@ -4,7 +4,7 @@
 
       <!-- Header -->
       <div class="text-center mb-6 lg:mb-8">
-        <h2 class="text-4xl md:text-4xl font-black uppercase tracking-wide text-gray-900" style="font-family: 'Inter', sans-serif;">
+        <h2 class="text-4xl md:text-4xl font-black uppercase tracking-wide text-[#1a2e4a]" style="font-family: 'Inter', sans-serif;">
           Featured Breweries
         </h2>
 
@@ -12,7 +12,7 @@
           Meet the artisans behind Cambodia's thriving craft beer scene.
         </p>
 
-        <div class="w-28 h-1 bg-amber-700 rounded-full mx-auto mt-5"></div>
+        <div class="w-28 h-1 bg-sky-500 rounded-full mx-auto mt-5"></div>
       </div>
 
       <!-- Grid -->
@@ -27,7 +27,8 @@
 
           <!-- Logo -->
           <div class="flex justify-center mb-4">
-            <div class="w-28 h-28 rounded-full overflow-hidden border-4 border-amber-700 bg-white shadow-sm">
+            <div class="w-28 h-28 rounded-full overflow-hidden border-2 border-sky-500 bg-white shadow-md ring-1 ring-gray-100">
+
               <img
                 :src="brewery.image"
                 :alt="brewery.name"
@@ -38,7 +39,7 @@
 
           <!-- Name -->
           <h3
-            class="text-center text-xl font-bold text-gray-900 mb-2 leading-tight transition-all duration-700"
+            class="text-center text-xl font-bold text-[#1a2e4a] mb-2 leading-tight transition-all duration-700"
             style="font-family: 'Inter', sans-serif;"
             :class="visibleItems.has(index)
               ? 'opacity-100 translate-y-0'
@@ -74,8 +75,8 @@
               style="font-family: 'Inter', sans-serif;"
             >
               <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
-              </svg>
+              <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.791-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.267h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/>
+            </svg>
               Visit Facebook Page
             </a>
 
@@ -116,7 +117,7 @@ const breweries = [
   },
   {
     name: "Botanico Brewing Company",
-    image: "https://cambodian-craft-beer-crown.psewmad.org/_next/image?url=%2Fimages%2Fbotanico.png&w=1920&q=75",
+    image: "https://cdn.discordapp.com/attachments/1481845287646531667/1518793036363075615/b6.jpg?ex=6a3b35bd&is=6a39e43d&hm=67a9d7f0d0d01d532e59de84335866ddf49026efbbe11b511a22c0b34f9a918d&",
     description:
       "Located in Phnom Penh, Botanico is one of Cambodia's oldest craft breweries, producing a wide range of beers using locally grown ingredients whenever possible.",
     facebook: "https://www.facebook.com/botanicobrewingco",
