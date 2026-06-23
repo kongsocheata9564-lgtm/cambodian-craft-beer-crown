@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-[#F8F6F2] p-4">
-    <div class="max-w-6xl mx-auto bg-white border shadow-lg rounded-md">
+    <div class="max-w-6xl mx-auto bg-white  shadow-lg rounded-md">
 
       <!-- HERO -->
       <section class="p-8">
@@ -23,7 +23,7 @@
         </p>
 
        <!-- Event Info -->
-<div class="bg-gradient-to-br from-blue-50 to-white border border-blue-100 p-6 rounded-2xl shadow-md space-y-4">
+<div class="bg-gradient-to-br from-blue-50 to-white border-blue-100 p-6 rounded-2xl shadow-md space-y-4">
 
   <!-- Date -->
   <div class="flex items-center gap-4 group">
@@ -83,7 +83,7 @@
     <!-- Cards -->
     <section class="max-w-6xl mx-auto grid gap-[15px] md:grid-cols-3 pt-[30px] pb-[50px]">
 
-      <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
+      <div class="p-6 bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
         <h3 class="uppercase font-black text-sky-500 text-xl mb-4 flex items-center gap-2">
           <i ref="breweryIcon" class="fa-solid fa-beer-mug-empty text-sky-500"></i>
           Meet the Breweries
@@ -96,7 +96,7 @@
         <a href="./breweries" class="text-sky-500 font-bold uppercase hover:text-sky-600"> Learn More -> </a>
       </div>
 
-      <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
+      <div class="p-6 bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
         <h3 class="uppercase font-black text-sky-500 text-xl mb-4 flex items-center gap-2">
           <i ref="timetableIcon" class="fa-solid fa-music text-sky-500"></i>
           Event Timetable
@@ -109,7 +109,7 @@
         <a href="./schedules" class="text-sky-500 font-bold uppercase hover:text-sky-600"> Learn More -> </a>
       </div>
 
-      <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
+      <div class="p-6 bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
         <h3 class="uppercase font-black text-sky-500 text-xl mb-4 flex items-center gap-2">
           <i ref="awardsIcon" class="fa-solid fa-trophy text-sky-500"></i>
           Awards
