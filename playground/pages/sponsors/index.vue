@@ -19,16 +19,18 @@
             Platinum Sponsor
           </h2>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-0 gap-4 sm:gap-8 md:gap-12">
+        <!-- Platinum: centered, largest cards -->
+        <div class="flex flex-wrap justify-center gap-4 sm:gap-8 md:gap-12 [&>*]:w-full [&>*]:max-w-[90%] sm:[&>*]:max-w-[420px] [&>*]:flex-[0_1_420px]">
           <platinum />
         </div>
 
-        <div class="mb-6 sm:mb-8">
+        <div class="my-6 sm:my-8">
           <h2 class="sponsor-fade-in-up text-base sm:text-xl font-bold py-3 sm:py-5" style="color: #FFE600;">
             Gold Sponsor
           </h2>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-0 gap-4 sm:gap-8 md:gap-12">
+        <!-- Gold: centered, smaller than platinum -->
+        <div class="flex flex-wrap justify-center gap-4 sm:gap-8 md:gap-12 [&>*]:w-full [&>*]:max-w-[90%] sm:[&>*]:max-w-[300px] [&>*]:flex-[0_1_300px]">
           <goldSponsor />
         </div>
 
@@ -37,7 +39,8 @@
             Silver Sponsor
           </h2>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-8 md:gap-12">
+        <!-- Silver: centered, smaller than gold -->
+        <div class="flex flex-wrap justify-center gap-4 sm:gap-8 md:gap-12 [&>*]:w-full [&>*]:max-w-[90%] sm:[&>*]:max-w-[260px] [&>*]:flex-[0_1_260px]">
           <silverSponsor />
         </div>
 
@@ -46,7 +49,8 @@
             Regular Partners
           </h2>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-8 md:gap-12">
+        <!-- Regular: centered, smallest -->
+        <div class="flex flex-wrap justify-center gap-4 sm:gap-8 md:gap-12 [&>*]:w-full [&>*]:max-w-[90%] sm:[&>*]:max-w-[220px] [&>*]:flex-[0_1_220px]">
           <regularPartners />
         </div>
       </div>
