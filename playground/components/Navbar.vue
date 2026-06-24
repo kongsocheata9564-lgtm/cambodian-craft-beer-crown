@@ -32,7 +32,7 @@
         </NuxtLink>
         <NuxtLink class="border-b-2 border-transparent hover:border-orange-500 hover:text-sky-500" active-class="font-bold text-sky-500" to="/beers">
           <p class="inline-block"><i class="fa-brands fa-untappd"></i></p>
-          <span class="ml-3">Beers</span>
+          <span class="ml-3">Beer style</span>
         </NuxtLink>
         <NuxtLink class="border-b-2 border-transparent hover:border-orange-500 hover:text-sky-500" active-class="font-bold text-sky-500" to="/awards">
           <p class="inline-block"><i class="fa-solid fa-award"></i></p>

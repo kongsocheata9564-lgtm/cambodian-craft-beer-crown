@@ -1,10 +1,10 @@
 <template>
   <section class="bg-[#F8F6F2] py-6 lg:py-8">
   <div class="container mx-auto px-6 py-16">
-    <h1 class="text-3xl md:text-4xl text-center font-bold mb-2">Competition Awards</h1>
-    <p class="text-gray-700 mb-6 text-center">Three prestigious categories await our winners</p>
+    <h1 class="sponsor-fade-in-up text-3xl md:text-4xl text-center font-bold mb-2">Competition Awards</h1>
+    <p class="sponsor-fade-in-up text-gray-700 mb-6 text-center">Three prestigious categories await our winners</p>
 
-    <div class="flex justify-center">
+    <div class="sponsor-fade-in-up flex justify-center">
       <div class="bg-white rounded-lg shadow p-6 md:p-10 w-full max-w-4xl">
         <div class="flex flex-col sm:flex-row gap-4 sm:gap-8 items-center sm:items-start text-center sm:text-left">
           <span class="text-3xl text-yellow-500 p-2 sm:p-4">
@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <div class="flex justify-center">
+    <div class="sponsor-fade-in-up flex justify-center">
       <div class="flex flex-col md:flex-row gap-6 w-full max-w-4xl mt-6">
         <div class="bg-white rounded-lg shadow p-6 flex-1">
           <span class="text-3xl text-blue-500"><i class="fa-regular fa-user"></i></span>
@@ -50,4 +50,21 @@
     </div>
   </div>
 </section>
+
 </template>
+<style scoped>
+@keyframes sponsorFadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.sponsor-fade-in-up {
+  animation: sponsorFadeInUp 0.6s ease-out;
+}
+
+</style>
