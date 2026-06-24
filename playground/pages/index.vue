@@ -70,11 +70,10 @@
         <br><br>
 
         <!-- Vote Button -->
-        <a 
-          href="https://docs.google.com/forms/d/e/1FAIpQLScEjueBWitDWygOZkaHDnkADWIHhYdgZ-lH_u3EvKM2RzL1AA/viewform"
-          target="blank" class="inline-block bg-orange-400 hover:bg-orange-500 hover:scale-105 hover:-translate-y-1 transition-all duration-300 text-white px-8 py-4 font-bold uppercase rounded-md shadow-lg hover:shadow-xl"
-        >
-          <i ref="voteIcon" class="fa-solid fa-check-to-slot"></i> Judge Here
+         <a href="https://docs.google.com/forms/d/e/1FAIpQLScEjueBWitDWygOZkaHDnkADWIHhYdgZ-lH_u3EvKM2RzL1AA/viewform" class="order-4 hidden md:inline-block bg-orange-400 text-white px-6 py-2 rounded-3xl hover:bg-orange-400 hover:scale-105 transition-all duration-200" target="blank">
+
+          <i ref="voteIcon" class="fa-solid fa-check-to-slot"></i>
+          <h2 class="inline-block ml-2 text-lg">JUDGE HERE</h2>
         </a>
 
       </section>
@@ -98,7 +97,7 @@
 
       <div class="p-6 border bg-white rounded-md hover:scale-105 transition duration-300 shadow-lg">
         <h3 class="uppercase font-black text-sky-500 text-xl mb-4 flex items-center gap-2">
-          <i ref="timetableIcon" class="fa-solid fa-music text-sky-500"></i>
+          <i ref="timetableIcon" class="fa-regular fa-calendar text-sky-500"></i>
           Event Timetable
         </h3>
         <p class="text-sm mb-4">
