@@ -10,7 +10,7 @@
         </h1>
 
         <h2 class="text-4xl font-black text-sky-500 uppercase mb-6">
-          Crown 2025
+          Crown 2026
         </h2>
 
         <p class="uppercase text-sm mb-1">
@@ -32,7 +32,7 @@
     </div>
     <div>
       <p class="text-xs text-blue-400 uppercase tracking-widest font-semibold mb-0.5">Date</p>
-      <p class="font-black uppercase text-gray-800 tracking-wide">August 16, 2025</p>
+      <p class="font-black uppercase text-gray-800 tracking-wide">August 16, 2026</p>
     </div>
   </div>
 
